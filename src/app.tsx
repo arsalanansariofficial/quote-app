@@ -49,9 +49,9 @@ export default function App() {
   }, []);
 
   return (
-    <div className="card">
+    <section className="card">
       <p className="quote-id">Quote {id}</p>
-      <blockquote className="quote">{quote.content}</blockquote>
+      <h1 className="quote">{quote.content}</h1>
       <img
         className="divider"
         src="./images/pattern-divider-mobile.svg"
@@ -69,6 +69,6 @@ export default function App() {
           alt="Dice Icon"
         />
       </div>
-    </div>
+    </section>
   );
 }
